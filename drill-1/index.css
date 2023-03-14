@@ -1,0 +1,32 @@
+header {
+    height: 150px;
+    background-color: darkgrey;
+    
+}
+
+main {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    justify-content: space-between;
+    margin:auto
+    
+}
+
+div {
+    width: 10vh;
+    height: 70vh;
+    background-color: lightgrey;
+    display: flex;
+}
+
+footer {
+    background-color: black;
+    height: 15%;
+    margin: auto
+}
+
+body {
+    background-color: lightgray;
+    
+}

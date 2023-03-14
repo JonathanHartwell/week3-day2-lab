@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top {
+    height: 20vh;
+    border-style: solid;
+    width: 95%;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.purple {
+    width: 40px;
+    height: 100px;
+    background-color: purple;
+}
+
+.green {
+    width: 375px;
+    height: 190px;
+    background-color: green;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.blue {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+.middle {
+    height: 35vh;
+    border-style: dotted;
+    width: 95%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.creme {
+    height: 70%;
+    width: 90%;
+    background-color: blanchedalmond;
+    box-shadow: 10px 10px 5px #303030;
+}
+
+.bottom {
+    height: 35vh;
+    width: 95%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box{
+    display: flex;
+    position: relative;
+    height: 60%;
+    width: 40%;
+    box-shadow: 3px 3px 3px 3px darkgray;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Rubik Mono One', sans-serif;
+
+}

@@ -1,0 +1,76 @@
+body {
+    height: 155vh
+}
+
+header {
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    background-color: lightskyblue;
+    margin-left: 20px;
+}
+
+.article {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    width: 80%
+}
+
+.blue {
+    height: 30vh;
+    background-color: lightskyblue;
+}
+
+.teal {
+    height: 30vh;
+    background-color: teal;
+}
+
+.barf {
+    height: 30vh;
+    background-color: yellowgreen
+}
+
+.yellow {
+    height: 30vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: red;
+    
+}
+
+.help {
+    color: white;
+    font-size: 25px;
+}
